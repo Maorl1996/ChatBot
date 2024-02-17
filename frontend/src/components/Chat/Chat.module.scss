@@ -1,0 +1,8 @@
+.chat {
+  padding: 10px;
+  height: calc(100vh - 70px - 60px - 25px);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

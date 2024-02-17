@@ -1,0 +1,16 @@
+.avatar {
+  color: white;
+  background: darkgray;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: unset;
+  height: fit-content;
+  padding: 5px;
+
+  vertical-align: middle;
+  width: 20px;
+  object-fit: cover;
+  border-radius: 50%;
+  z-index: 10;
+  text-align: -webkit-center;
+}

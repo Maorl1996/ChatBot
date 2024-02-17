@@ -1,0 +1,17 @@
+{
+  "name": "my-chat-bot",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start:frontend": "npm run --prefix frontend start",
+    "start:backend": "npm run --prefix backend start:dev"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.1",
+    "node-sass": "^7.0.3",
+    "typescript": "^5.3.3"
+  }
+}

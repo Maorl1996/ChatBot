@@ -1,0 +1,13 @@
+.wrap {
+  display: flex;
+
+  .container {
+    flex: 1 1;
+  }
+
+  .threadDraw {
+    width: 500px;
+    border-left: 1px solid grey;
+    transition: width 2s;
+  }
+}

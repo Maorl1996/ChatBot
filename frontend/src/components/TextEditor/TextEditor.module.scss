@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  max-height: 100px;
+  height: 60px;
+  align-items: center;
+
+  .textEditor {
+    width: 80%;
+    border-radius: 50px;
+    max-height: 100px;
+    padding: 0 15px;
+    height: 50px;
+  }
+
+  .sendIcon {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+  }
+}
