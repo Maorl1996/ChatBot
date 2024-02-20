@@ -20,7 +20,7 @@ http.listen(8000, () => {
   console.log("listening on *:8000");
 });
 
-const client = new Client({ node: "http://localhost:9200" });
+const client = new Client({ node: "http://46.121.98.35:9200" });
 
 async function createMessage(body) {
   try {
